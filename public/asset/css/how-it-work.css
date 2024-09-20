@@ -1,0 +1,6 @@
+.how-it-works-content {
+    opacity: 0.4
+}
+.swiper-slide-thumb-active .how-it-works-content{
+    opacity: 1
+}
