@@ -18,6 +18,7 @@
 @endsection
 
 @push('js')
+    <script src="{{asset('asset/js/coupon.js')}}"></script>
     <script src="{{asset('asset/js/lib/swiper/how-it-work.js')}}"></script>
     <style>
         /* Style modal */
