@@ -16,6 +16,7 @@ couponInput.addEventListener("keydown", function(event) {
 
 function redirectToNewUrl() {
     // Get the value entered in the input field
+    console.log("helo")
     const enteredCode = couponInput.value;
 
     // Check if the entered code is not empty

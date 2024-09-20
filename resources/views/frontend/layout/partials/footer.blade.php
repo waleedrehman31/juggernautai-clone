@@ -2,41 +2,45 @@
     <div class="section mod--footer">
         <div class="container">
             <div class="columns mod--footer">
-                <div class="columns__col mod--footer is-1"><a href="/" aria-current="page"
-                                                              class="logo-link w-inline-block w--current"><img
-                            src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9ec9_main-logo.webp"
-                            loading="eager" alt="juggernaut logo" class="logo"></a>
-                    <div class="text-size-small text-color-grey-c is-footer">We deliver principle-based coaching through
+                <div class="columns__col mod--footer is-1">
+                    <a href="/" aria-current="page" class="logo-link w-inline-block w--current">
+                        <img
+                            src="{{asset('asset/logo/main-logo.webp')}}"
+                            loading="eager" alt="juggernaut logo" class="logo">
+                    </a>
+                    <div class="text-size-small text-color-grey-c is-footer">
+                        We deliver principle-based coaching through
                         cutting-edge technology to help you get the best results of your life
                     </div>
                 </div>
                 <div class="columns__col mod--footer">
                     <nav class="nav-footer">
                         <div class="nav__link is-footer is-title">Get started</div>
-                        <a href="https://my.juggernautai.app/login" class="nav__link is-footer">Log In</a><a
-                            href="https://my.juggernautai.app/register" class="nav__link is-footer">Sign Up</a></nav>
+                        <a href="https://my.juggernautai.app/login" class="nav__link is-footer">Log In</a>
+                        <a  href="https://my.juggernautai.app/register" class="nav__link is-footer">Sign Up</a>
+                    </nav>
                 </div>
                 <div class="columns__col mod--footer">
                     <nav class="nav-footer">
                         <div class="nav__link is-footer is-title">Navigation</div>
-                        <a href="/about" class="nav__link is-footer">About</a><a href="/pricing"
-                                                                                 class="nav__link is-footer">Pricing</a><a
-                            href="/blog" class="nav__link is-footer">Blog</a><a
-                            href="https://my.juggernautai.app/leaderboard" class="nav__link is-footer">Leaderboard</a>
+                        <a href="/about" class="nav__link is-footer">About</a>
+                        <a href="/pricing"  class="nav__link is-footer">Pricing</a>
+                        <a href="/blog" class="nav__link is-footer">Blog</a>
+                        <a href="https://my.juggernautai.app/leaderboard" class="nav__link is-footer">Leaderboard</a>
                     </nav>
                 </div>
                 <div class="columns__col mod--footer">
                     <nav class="nav-footer">
                         <div class="nav__link is-footer is-title">Other</div>
-                        <a href="https://www.jtsstrength.com/app-privacy-policy/" class="nav__link is-footer">Privacy
-                            Policy</a><a href="https://www.jtsstrength.com/app-terms-of-use/"
-                                         class="nav__link is-footer">Terms of Use</a></nav>
+                        <a href="https://www.jtsstrength.com/app-privacy-policy/" class="nav__link is-footer">
+                            Privacy  Policy</a>
+                        <a href="https://www.jtsstrength.com/app-terms-of-use/"  class="nav__link is-footer">Terms of Use</a>
+                    </nav>
                 </div>
                 <div class="columns__col mod--footer">
                     <div class="nav__link is-footer is-title">Socials</div>
-                    <div class="socials-wrap"><a id="w-node-_6b9c7240-3a02-4dd3-d3c8-2774499f7e7b-499f7e54"
-                                                 href="https://www.facebook.com/JTSstrength/" target="_blank"
-                                                 class="link-block w-inline-block">
+                    <div class="socials-wrap">
+                        <a id="w-node-_6b9c7240-3a02-4dd3-d3c8-2774499f7e7b-499f7e54" href="https://www.facebook.com/JTSstrength/" target="_blank" class="link-block w-inline-block">
                             <div id="w-node-_6b9c7240-3a02-4dd3-d3c8-2774499f7e7c-499f7e54" class="w-embed">
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
@@ -46,7 +50,8 @@
                                           fill="#CBFEF8"></path>
                                 </svg>
                             </div>
-                        </a><a id="w-node-_6b9c7240-3a02-4dd3-d3c8-2774499f7e7d-499f7e54"
+                        </a>
+                        <a id="w-node-_6b9c7240-3a02-4dd3-d3c8-2774499f7e7d-499f7e54"
                                href="https://www.instagram.com/juggernauttraining/" target="_blank"
                                class="w-inline-block">
                             <div id="w-node-_6b9c7240-3a02-4dd3-d3c8-2774499f7e7e-499f7e54" class="w-embed">
@@ -58,7 +63,8 @@
                                           fill="#CBFEF8"></path>
                                 </svg>
                             </div>
-                        </a><a id="w-node-_6b9c7240-3a02-4dd3-d3c8-2774499f7e7f-499f7e54"
+                        </a>
+                        <a id="w-node-_6b9c7240-3a02-4dd3-d3c8-2774499f7e7f-499f7e54"
                                href="https://www.youtube.com/@JuggernautTrainingSystems" target="_blank"
                                class="w-inline-block">
                             <div id="w-node-_6b9c7240-3a02-4dd3-d3c8-2774499f7e80-499f7e54" class="w-embed">
@@ -70,7 +76,8 @@
                                         fill="#CBFEF8"></path>
                                 </svg>
                             </div>
-                        </a><a id="w-node-_6b9c7240-3a02-4dd3-d3c8-2774499f7e81-499f7e54"
+                        </a>
+                        <a id="w-node-_6b9c7240-3a02-4dd3-d3c8-2774499f7e81-499f7e54"
                                href="https://www.tiktok.com/@juggernauttraining" target="_blank" class="w-inline-block">
                             <div id="w-node-_6b9c7240-3a02-4dd3-d3c8-2774499f7e82-499f7e54" class="w-embed">
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
@@ -81,20 +88,22 @@
                                         fill="#CBFEF8"></path>
                                 </svg>
                             </div>
-                        </a></div>
+                        </a>
+                    </div>
                 </div>
-                <div class="columns__col mod--footer is-last"><a
+                <div class="columns__col mod--footer is-last">
+                    <a
                         href="https://apps.apple.com/us/app/juggernautai/id1515756471" target="_blank"
                         class="link-store w-inline-block"><img
-                            src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9ecd_appstore.webp"
+                            src="{{asset('asset/images/image/appstore.webp')}}"
                             loading="lazy" alt="" class="image"></a><a
                         href="https://play.google.com/store/apps/details?id=com.jtsstrength.juggernautai&amp;hl=en_US&amp;gl=US"
                         target="_blank" class="link-store w-inline-block"><img
-                            src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9ece_googleplay.webp"
+                            src="{{asset('asset/images/image/googleplay.webp')}}"
                             loading="lazy" alt=""></a></div>
             </div>
             <div class="footer-bottom">
-                <div class="text-size-small text-color-grey-c">juggernautai.app © 2023.</div>
+                <div class="text-size-small text-color-grey-c">juggernautai.app © 2024.</div>
                 <div class="text-size-small text-color-grey-c">All rights reserved.</div>
             </div>
         </div>
