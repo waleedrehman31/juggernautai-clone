@@ -18,6 +18,9 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::view('/', 'frontend.index');
+Route::view('/about', 'frontend.about')->name('frontend.about');
+Route::view('/pricing', 'frontend.pricing')->name('frontend.pricing');
+Route::view('/blog', 'frontend.blog')->name('frontend.blog');
 
 Auth::routes();
 
