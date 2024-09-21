@@ -8,7 +8,7 @@
                     and affordable options for everyone, from beginners to seasoned powerlifters
                 </div>
                 <div class="rating-wrap"><img
-                        src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9ecc_loading%2001.svg"
+                        src="{{asset('asset/images/svg/loading 01.svg')}}"
                         loading="lazy" alt="icon loading">
                     <div class="text-size-regular is-rating"><span
                             class="subtitle-m text-color-bluelight">4.9</span> AppStore &amp; Google Play Rating
@@ -21,7 +21,7 @@
         <div class="container">
             <div class="coupon-info-wrapper">
                 <div class="coupon-info"><img
-                        src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f47_icon-close.svg"
+                        src="{{asset('asset/images/svg/icon-close.svg')}}"
                         loading="lazy" data-w-id="db0c2fd6-209e-cee0-3974-533e06479ccc" alt="" class="icon-close">
                     <div class="popup-tittle"><h3 class="heading-h3 text-align-center">Enter coupon code</h3>
                         <p class="text-size-regular text-align-center text-color-grey-c is-popup">Enter your coupon

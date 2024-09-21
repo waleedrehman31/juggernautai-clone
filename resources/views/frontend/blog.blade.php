@@ -6,10 +6,10 @@
             <div role="list" class="collection-list-3 w-dyn-items">
                 <div role="listitem" class="posts-highlighted-item w-dyn-item"><a
                         href="/blog/juggernautai-v2-0-is-out-now" class="highlighted-post w-inline-block"><img
-                            src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616.png"
+                            src="{{asset('asset/images/image/article/article-2/article-preview-2.png')}}"
                             loading="lazy" alt=""
                             sizes="(max-width: 767px) 100vw, (max-width: 991px) 492.03125px, 50vw"
-                            srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616-p-500.png 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616-p-800.png 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616-p-1080.png 1080w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616.png 1166w"
+                            srcset="{{asset('asset/images/image/article/article-2/article-preview-2-p-500.png')}} 500w, {{asset('asset/images/image/article/article-2/article-preview-2-p-800.png')}} 800w, {{asset('asset/images/image/article/article-2/article-preview-2-p-10800.png')}} 1080w, {{asset('asset/images/image/article/article-2/article-preview-2.png')}} 1166w"
                             class="image-2">
                         <div class="post-category margin-bottom-16">Training</div>
                         <h4 class="heading-h4 is-post-name">JuggernautAI v2.0 is out now</h4>
@@ -18,7 +18,7 @@
                 <div role="listitem" class="posts-highlighted-item w-dyn-item"><a
                         href="/blog/5-tips-to-get-the-most-out-of-the-juggernautai-app"
                         class="highlighted-post w-inline-block"><img
-                            src="https://cdn.prod.website-files.com/64e33a27e3b32814eb204972/64e33e016227f3a62b98f0dc_article-preview-1.webp"
+                            src="{{asset('asset/images/image/article/article-1/article-preview-1.webp')}}"
                             loading="lazy" alt="" class="image-2">
                         <div class="post-category margin-bottom-16">Powerlifting</div>
                         <h4 class="heading-h4 is-post-name">5 Tips To Get The Most Out of the JuggernautAI App</h4>
@@ -26,7 +26,7 @@
                     </a></div>
                 <div role="listitem" class="posts-highlighted-item w-dyn-item"><a
                         href="/blog/optimizing-your-warmups" class="highlighted-post w-inline-block"><img
-                            src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/653a0fc479ec415433fc9eaa_article-preview-11.webp"
+                            src="{{asset('asset/images/image/article/article-11/article-preview-11.webp')}}"
                             loading="lazy" alt="" class="image-2">
                         <div class="post-category margin-bottom-16">Powerlifting</div>
                         <h4 class="heading-h4 is-post-name">Optimizing Your Warmups</h4>
@@ -40,10 +40,10 @@
                      aria-live="polite" style="transition-duration: 0ms; transition-delay: 0ms;">
                     <div role="listitem" class="swiper-slide mod--posts w-dyn-item"><a
                             href="/blog/juggernautai-v2-0-is-out-now" class="highlighted-post w-inline-block"><img
-                                src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616.png"
+                                src="{{asset('asset/images/image/article/article-2/article-preview-2.png')}}"
                                 loading="lazy" alt=""
-                                sizes="(max-width: 479px) 50vw, (max-width: 767px) 47vw, 100vw"
-                                srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616-p-500.png 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616-p-800.png 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616-p-1080.png 1080w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616.png 1166w"
+                                sizes="(max-width: 767px) 100vw, (max-width: 991px) 492.03125px, 50vw"
+                                srcset="{{asset('asset/images/image/article/article-2/article-preview-2-p-500.png')}} 500w, {{asset('asset/images/image/article/article-2/article-preview-2-p-800.png')}} 800w, {{asset('asset/images/image/article/article-2/article-preview-2-p-10800.png')}} 1080w, {{asset('asset/images/image/article/article-2/article-preview-2.png')}} 1166w"
                                 class="image-2">
                             <div class="post-category margin-bottom-16">Training</div>
                             <h4 class="heading-h4 is-post-name">JuggernautAI v2.0 is out now</h4>
@@ -52,16 +52,17 @@
                     <div role="listitem" class="swiper-slide mod--posts w-dyn-item"><a
                             href="/blog/5-tips-to-get-the-most-out-of-the-juggernautai-app"
                             class="highlighted-post w-inline-block"><img
-                                src="https://cdn.prod.website-files.com/64e33a27e3b32814eb204972/64e33e016227f3a62b98f0dc_article-preview-1.webp"
+                                src="{{asset('asset/images/image/article/article-1/article-preview-1.webp')}}"
                                 loading="lazy" alt="" class="image-2">
                             <div class="post-category margin-bottom-16">Powerlifting</div>
                             <h4 class="heading-h4 is-post-name">5 Tips To Get The Most Out of the JuggernautAI
                                 App</h4>
                             <div class="mask"></div>
-                        </a></div>
+                        </a>
+                    </div>
                     <div role="listitem" class="swiper-slide mod--posts w-dyn-item"><a
                             href="/blog/optimizing-your-warmups" class="highlighted-post w-inline-block"><img
-                                src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/653a0fc479ec415433fc9eaa_article-preview-11.webp"
+                                src="{{asset('asset/images/image/article/article-11/article-preview-11.webp')}}"
                                 loading="lazy" alt="" class="image-2">
                             <div class="post-category margin-bottom-16">Powerlifting</div>
                             <h4 class="heading-h4 is-post-name">Optimizing Your Warmups</h4>
@@ -88,10 +89,10 @@
                          fs-cmsload-pageboundary="1" role="list" class="collection-list w-dyn-items">
                         <div role="listitem" class="collection-item w-dyn-item"><a
                                 href="/blog/juggernautai-v2-0-is-out-now" class="post-card w-inline-block"><img
-                                    src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616.png"
+                                    src="{{asset('asset/images/image/article/article-2/article-preview-2.png')}}"
                                     loading="lazy" alt="JuggernautAI v2.0 is out now"
                                     sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 26vw, 28vw"
-                                    srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616-p-500.png 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616-p-800.png 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616-p-1080.png 1080w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/66c61ccca5052a6a5bbde504_1166x616.png 1166w"
+                                    srcset="{{asset('asset/images/image/article/article-2/article-preview-2-p-500.png')}} 500w, {{asset('asset/images/image/article/article-2/article-preview-2-p-800.png')}} 800w, {{asset('asset/images/image/article/article-2/article-preview-2-p-1080.png')}} 1080w, {{asset('asset/images/image/article/article-2/article-preview-2.png')}} 1166w"
                                     class="post-cover">
                                 <div class="post-top">
                                     <div class="post-category margin-bottom-16">Training</div>
@@ -105,10 +106,10 @@
                             </a></div>
                         <div role="listitem" class="collection-item w-dyn-item"><a
                                 href="/blog/pillars-of-deadlift-technique" class="post-card w-inline-block"><img
-                                    src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/65426b0d27f523cb4ae47bbb_kate_deadlift_thumbnail.jpg"
+                                    src="{{asset('asset/images/image/article/deadlift/kate-deadlift-thumbnail.jpg')}}"
                                     loading="lazy" alt="The Pillars of Deadlift Technique"
                                     sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 26vw, 28vw"
-                                    srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/65426b0d27f523cb4ae47bbb_kate_deadlift_thumbnail-p-500.jpg 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/65426b0d27f523cb4ae47bbb_kate_deadlift_thumbnail-p-800.jpg 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/65426b0d27f523cb4ae47bbb_kate_deadlift_thumbnail-p-1080.jpg 1080w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/65426b0d27f523cb4ae47bbb_kate_deadlift_thumbnail.jpg 1166w"
+                                    srcset="{{asset('asset/images/image/article/deadlift/kate_deadlift_thumbnail-p-500.jpg')}} 500w, {{asset('asset/images/image/article/deadlift/kate_deadlift_thumbnail-p-800.jpg')}} 800w, {{asset('asset/images/image/article/deadlift/kate_deadlift_thumbnail-p-1080.jpg')}} 1080w, {{asset('asset/images/image/article/deadlift/kate-deadlift-thumbnail.jpg')}} 1166w"
                                     class="post-cover">
                                 <div class="post-top">
                                     <div class="post-category margin-bottom-16">Powerlifting</div>
@@ -128,10 +129,10 @@
                             </a></div>
                         <div role="listitem" class="collection-item w-dyn-item"><a
                                 href="/blog/pillars-of-bench-technique" class="post-card w-inline-block"><img
-                                    src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/654266e620a77e16c4c39cfa_marisa_worlds22_bench._thumb.jpg"
+                                    src="{{asset('asset/images/image/article/bench/bench._thumb.jpg')}}"
                                     loading="lazy" alt="The Pillars of Bench Technique"
                                     sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 26vw, 28vw"
-                                    srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/654266e620a77e16c4c39cfa_marisa_worlds22_bench._thumb-p-500.jpg 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/654266e620a77e16c4c39cfa_marisa_worlds22_bench._thumb-p-800.jpg 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/654266e620a77e16c4c39cfa_marisa_worlds22_bench._thumb-p-1080.jpg 1080w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/654266e620a77e16c4c39cfa_marisa_worlds22_bench._thumb.jpg 1166w"
+                                    srcset="{{asset('asset/images/image/article/bench/bench._thumb-p-500.jpg')}} 500w, {{asset('asset/images/image/article/bench/bench._thumb-p-800.jpg')}} 800w, {{asset('asset/images/image/article/bench/bench._thumb-p-1080.jpg')}} 1080w, {{asset('asset/images/image/article/bench/bench._thumb.jpg')}} 1166w"
                                     class="post-cover">
                                 <div class="post-top">
                                     <div class="post-category margin-bottom-16">Powerlifting</div>
@@ -148,10 +149,10 @@
                             </a></div>
                         <div role="listitem" class="collection-item w-dyn-item"><a
                                 href="/blog/the-pillars-of-squat-technique" class="post-card w-inline-block"><img
-                                    src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/654172ce23ed661ca26ed95d_Thumbnail_Squat_Pilla.jpg"
+                                    src="{{asset('asset/images/image/article/squat/Thumbnail_Squat_Pilla.jpg')}}"
                                     loading="lazy" alt="The Pillars of Squat Technique"
                                     sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 26vw, 28vw"
-                                    srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/654172ce23ed661ca26ed95d_Thumbnail_Squat_Pilla-p-500.jpg 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/654172ce23ed661ca26ed95d_Thumbnail_Squat_Pilla-p-800.jpg 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/654172ce23ed661ca26ed95d_Thumbnail_Squat_Pilla-p-1080.jpg 1080w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/654172ce23ed661ca26ed95d_Thumbnail_Squat_Pilla.jpg 1166w"
+                                    srcset="{{asset('asset/images/image/article/squat/Thumbnail_Squat_Pilla-p-500.jpg')}} 500w, {{asset('asset/images/image/article/squat/Thumbnail_Squat_Pilla-p-800.jpg')}} 800w, {{asset('asset/images/image/article/squat/Thumbnail_Squat_Pilla-p-1080.jpg')}} 1080w, {{asset('asset/images/image/article/squat/Thumbnail_Squat_Pilla.jpg')}} 1166w"
                                     class="post-cover">
                                 <div class="post-top">
                                     <div class="post-category margin-bottom-16">Powerlifting</div>
@@ -167,7 +168,7 @@
                         <div role="listitem" class="collection-item w-dyn-item"><a
                                 href="/blog/5-tips-to-get-the-most-out-of-the-juggernautai-app"
                                 class="post-card w-inline-block"><img
-                                    src="https://cdn.prod.website-files.com/64e33a27e3b32814eb204972/64e33e016227f3a62b98f0dc_article-preview-1.webp"
+                                    src="{{asset('asset/images/image/article/article-1/article-preview-1.webp')}}"
                                     loading="lazy" alt="5 Tips To Get The Most Out  of the JuggernautAI App"
                                     class="post-cover">
                                 <div class="post-top">
@@ -186,7 +187,7 @@
                         <div role="listitem" class="collection-item w-dyn-item"><a
                                 href="/blog/scientific-principles-of-strength-training"
                                 class="post-card w-inline-block"><img
-                                    src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/653a0fc479ec415433fc9eb2_article-preview-3.webp"
+                                    src="{{asset('asset/images/image/article/article-3/article-preview-3.webp')}}"
                                     loading="lazy" alt="Scientific Principles of Strength Training"
                                     class="post-cover">
                                 <div class="post-top">
@@ -207,7 +208,7 @@
                             </a></div>
                         <div role="listitem" class="collection-item w-dyn-item"><a
                                 href="/blog/optimizing-your-warmups" class="post-card w-inline-block"><img
-                                    src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9f/653a0fc479ec415433fc9eaa_article-preview-11.webp"
+                                    src="{{asset('asset/images/image/article/article-11/article-preview-11.webp')}}"
                                     loading="lazy" alt="Optimizing Your Warmups" class="post-cover">
                                 <div class="post-top">
                                     <div class="post-category margin-bottom-16">Powerlifting</div>
@@ -243,15 +244,17 @@
                 </div>
                 <a href="https://my.juggernautai.app/register/" class="button is-cta w-button">Get Started</a></div>
             <img
-                src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0f_phone-blog-2.webp"
+                src="{{asset('asset/images/image/blog_phone/phone-2/phone-blog-2.webp')}}"
                 loading="lazy"
                 sizes="(max-width: 479px) 80vw, (max-width: 767px) 256px, (max-width: 991px) 19vw, 16vw"
-                srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0f_phone-blog-2-p-500.webp 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0f_phone-blog-2.webp 607w"
-                alt="app statistic on phome" class="cta-img-2"><img
-                src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0e_phone-blog-1.webp"
+                srcset="{{asset('asset/images/image/blog_phone/phone-2/phone-blog-2-p-500.webp')}} 500w, {{asset('asset/images/image/blog_phone/phone-2/phone-blog-2.webp')}} 607w"
+                alt="app statistic on phome" class="cta-img-2">
+            <img
+                src="{{asset('asset/images/image/blog_phone/phone-1/phone-blog-1.webp')}}"
                 loading="lazy"
                 sizes="(max-width: 479px) 75vw, (max-width: 767px) 224px, (max-width: 991px) 17vw, 14vw"
-                srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0e_phone-blog-1-p-500.webp 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0e_phone-blog-1.webp 513w"
-                alt="app on phone screen" class="cta-img-1"></div>
+                srcset="{{asset('asset/images/image/blog_phone/phone-1/phone-blog-1-p-500.webp')}} 500w, {{asset('asset/images/image/blog_phone/phone-1/phone-blog-1.webp')}} 513w"
+                alt="app on phone screen" class="cta-img-1">
+        </div>
     </section>
 @endsection

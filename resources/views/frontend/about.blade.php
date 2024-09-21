@@ -14,28 +14,29 @@
                     <div class="users-info-wrap">
                         <div class="users-avatars">
                             <div class="avatar-wrap"><img
-                                    src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f4c_user-avatar4.png"
+                                    src="{{asset('asset/images/avatars/user-avatar4.png')}}"
                                     loading="lazy" alt=""></div>
                             <div class="avatar-wrap is-2"><img
-                                    src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f4b_user-avatar1.png"
+                                    src="{{asset('asset/images/avatars/user-avatar2.png')}}"
                                     loading="lazy" alt=""></div>
                             <div class="avatar-wrap is-2"><img
-                                    src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f4a_user-avatar3.png"
+                                    src="{{asset('asset/images/avatars/user-avatar1.png')}}"
                                     loading="lazy" alt=""></div>
                         </div>
                         <div class="users-text-wrap"><p class="subtitle-m text-color-bluelight">4.9</p><img
-                                src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9efe_rating-stars.webp"
+                                src="{{asset('asset/images/image/rating-stars.webp')}}"
                                 loading="lazy" alt="rating stars" class="rating-stars"></div>
                     </div>
                 </div>
                 <img
-                    src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0d_about-hero-mob.webp"
+                    src="{{asset('asset/images/image/about/hero/about-hero-mob.webp')}}"
                     loading="lazy" sizes="(max-width: 479px) 95vw, (max-width: 767px) 94vw, 100vw"
-                    srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0d_about-hero-mob-p-500.webp 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0d_about-hero-mob.webp 654w"
-                    alt="tournament" class="about-hero-mob"><img
-                    src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9eff_about-hero-desk.webp"
+                    srcset="{{asset('asset/images/image/about/hero/about-hero-mob-p-500.webp')}} 500w, {{asset('asset/images/image/about/hero/about-hero-mob.webp')}} 654w"
+                    alt="tournament" class="about-hero-mob">
+                <img
+                    src="{{asset('asset/images/image/about/hero/about-hero-desk.webp')}}"
                     loading="lazy" sizes="100vw"
-                    srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9eff_about-hero-desk-p-500.webp 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9eff_about-hero-desk-p-800.webp 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9eff_about-hero-desk-p-1080.webp 1080w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9eff_about-hero-desk-p-1600.webp 1600w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9eff_about-hero-desk.webp 1798w"
+                    srcset="{{asset('asset/images/image/about/hero/about-hero-desk-p-500.webp')}} 500w, {{asset('asset/images/image/about/hero/about-hero-desk-p-800.webp')}} 800w, {{asset('asset/images/image/about/hero/about-hero-desk-p-1080.webp')}} 1080w, {{asset('asset/images/image/about/hero/about-hero-desk-p-1600.webp')}} 1600w, {{asset('asset/images/image/about/hero/about-hero-desk.webp')}} 1798w"
                     alt="tournament" class="about-hero-desk"></div>
         </div>
     </section>
@@ -80,21 +81,24 @@
                     href="https://my.juggernautai.app/register/" class="button is-transparent is-desktop w-button">Get
                     Started</a></div>
             <div class="info-wrap">
-                <div class="info-col is-1"><img class="point-img is-1"
-                                                src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9edd_how-img-1.webp"
-                                                alt="app on the screen" data-name="point-1" sizes="100vw"
-                                                loading="lazy"
-                                                srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9edd_how-img-1-p-500.webp 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9edd_how-img-1-p-800.webp 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9edd_how-img-1-p-1080.webp 1080w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9edd_how-img-1.webp 1232w"
-                                                style="will-change: transform; transform: translate3d(-180%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img
+                <div class="info-col is-1">
+                    <img class="point-img is-1"
+                         src="{{asset('asset/images/image/how-it-work/how-img-1/how-img-1.webp')}}"
+                         alt="app on the screen" data-name="point-1" sizes="100vw"
+                         loading="lazy"
+                         srcset="{{asset('asset/images/image/how-it-work/how-img-1/how-img-1-p-500.webp')}} 500w, {{asset('asset/images/image/how-it-work/how-img-1/how-img-1-p-800.webp')}} 800w, {{asset('asset/images/image/how-it-work/how-img-1/how-img-1-p-1080.webp')}} 1080w, {{asset('asset/images/image/how-it-work/how-img-1/how-img-1.webp')}} 1232w"
+                         style="will-change: transform; transform: translate3d(-180%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                    <img
                         class="point-img is-2"
-                        src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9ede_how-img-2.webp"
+                        src="{{asset('asset/images/image/how-it-work/how-img-2/how-img-2.webp')}}"
                         alt="app on the screen" data-name="point-2" sizes="100vw" loading="lazy"
-                        srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9ede_how-img-2-p-500.webp 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9ede_how-img-2-p-800.webp 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9ede_how-img-2-p-1080.webp 1080w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9ede_how-img-2.webp 1232w"
-                        style="will-change: transform; transform: translate3d(-180%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img
+                        srcset="{{asset('asset/images/image/how-it-work/how-img-2/how-img-2-p-500.webp')}} 500w, {{asset('asset/images/image/how-it-work/how-img-2/how-img-2-p-800.webp')}} 800w, {{asset('asset/images/image/how-it-work/how-img-2/how-img-2-p-1080.webp.webp')}} 1080w, {{asset('asset/images/image/how-it-work/how-img-2/how-img-2.webp')}} 1232w"
+                        style="will-change: transform; transform: translate3d(-180%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                    <img
                         class="point-img is-3"
-                        src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9edf_how-img-3.webp"
+                        src="{{asset('asset/images/image/how-it-work/how-img-3/how-img-3.webp')}}"
                         alt="app on the screen" data-name="point-3" sizes="100vw" loading="lazy"
-                        srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9edf_how-img-3-p-500.webp 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9edf_how-img-3-p-800.webp 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9edf_how-img-3-p-1080.webp 1080w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9edf_how-img-3.webp 1232w"
+                        srcset="{{asset('asset/images/image/how-it-work/how-img-3/how-img-3-p-500.webp')}} 500w, {{asset('asset/images/image/how-it-work/how-img-3/how-img-3-p-800.webp')}} 800w, {{asset('asset/images/image/how-it-work/how-img-3/how-img-3-p-1080.webp')}} 1080w, {{asset('asset/images/image/how-it-work/how-img-3/how-img-3.webp')}} 1232w"
                         style="will-change: transform; transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
                 </div>
                 <div class="info-col"><a data-name="point-1" href="#" class="point-wrap is-1 w-inline-block"
@@ -151,9 +155,9 @@
                         <div class="text-size-regular text-color-grey-c">Juggernaut Training Systems Founder</div>
                     </div>
                     <img
-                        src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f00_ceo-img-1.webp"
+                        src="{{asset('asset/images/image/team/ceo/ceo-img-1.webp')}}"
                         loading="lazy" sizes="100vw"
-                        srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f00_ceo-img-1-p-500.webp 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f00_ceo-img-1-p-800.webp 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f00_ceo-img-1.webp 811w"
+                        srcset="{{asset('asset/images/image/team/ceo/ceo-img-1-p-500.webp')}} 500w, {{asset('asset/images/image/team/ceo/ceo-img-1-p-800.webp')}} 800w, {{asset('asset/images/image/team/ceo/ceo-img-1.webp')}} 811w"
                         alt="ceo photo" class="ceo-img-abs"></div>
                 <div class="ceo-item">
                     <div class="ceo-name">
@@ -161,9 +165,9 @@
                         <div class="text-size-regular text-color-grey-c">Chief Technology Officer</div>
                     </div>
                     <img
-                        src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653abb58e93251903d59ef68_TimArnold.png"
+                        src="{{asset('asset/images/image/team/cto/TimArnold.png')}}"
                         loading="lazy" sizes="100vw"
-                        srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653abb58e93251903d59ef68_TimArnold-p-500.png 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653abb58e93251903d59ef68_TimArnold-p-800.png 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653abb58e93251903d59ef68_TimArnold.png 811w"
+                        srcset="{{asset('asset/images/image/team/cto/TimArnold-p-500.png')}} 500w, {{asset('asset/images/image/team/cto/TimArnold-p-800.png')}} 800w, {{asset('asset/images/image/team/cto/TimArnold.png')}} 811w"
                         alt="Tim Arnold, JuggernautAI Co-Creator" class="ceo-img-abs"></div>
                 <div class="ceo-item">
                     <div class="ceo-name">
@@ -171,9 +175,9 @@
                         <div class="text-size-regular text-color-grey-c">Coaching Advisor</div>
                     </div>
                     <img
-                        src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f01_ceo-img-2.webp"
+                        src="{{asset('asset/images/image/team/ca/ceo-img-2.webp')}}"
                         loading="lazy" sizes="100vw"
-                        srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f01_ceo-img-2-p-500.webp 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f01_ceo-img-2-p-800.webp 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f01_ceo-img-2.webp 811w"
+                        srcset="{{asset('asset/images/image/team/ca/ceo-img-2-p-500.webp')}} 500w, {{asset('asset/images/image/team/ca/ceo-img-2-p-800.webp')}} 800w, {{asset('asset/images/image/team/ca/ceo-img-2.webp')}} 811w"
                         alt="ceo photo" class="ceo-img-abs"></div>
             </div>
             <div data-swiper="cards" class="swiper ceo-wrap swiper-initialized swiper-horizontal">
@@ -181,9 +185,9 @@
                      style="transition-duration: 0ms; transition-delay: 0ms;">
                     <div class="swiper-slide ceo-item">
                         <div class="ceo-item"><img
-                                src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f00_ceo-img-1.webp"
+                                src="{{asset('asset/images/image/team/ceo/ceo-img-1.webp')}}"
                                 loading="lazy" sizes="100vw"
-                                srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f00_ceo-img-1-p-500.webp 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f00_ceo-img-1-p-800.webp 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f00_ceo-img-1.webp 811w"
+                                srcset="{{asset('asset/images/image/team/ceo/ceo-img-1-p-500.webp')}} 500w, {{asset('asset/images/image/team/ceo/ceo-img-1-p-800.webp')}} 800w, {{asset('asset/images/image/team/ceo/ceo-img-1.webp')}} 811w"
                                 alt="ceo photo" class="ceo-img-abs">
                             <div class="ceo-name">
                                 <div class="subtitle-l margin-bottom-8">Chad Wesley Smith</div>
@@ -193,9 +197,9 @@
                     </div>
                     <div class="swiper-slide ceo-item">
                         <div class="ceo-item"><img
-                                src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653abb58e93251903d59ef68_TimArnold.png"
+                                src="{{asset('asset/images/image/team/cto/TimArnold.png')}}"
                                 loading="lazy" sizes="100vw"
-                                srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653abb58e93251903d59ef68_TimArnold-p-500.png 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653abb58e93251903d59ef68_TimArnold-p-800.png 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653abb58e93251903d59ef68_TimArnold.png 811w"
+                                srcset="{{asset('asset/images/image/team/cto/TimArnold-p-500.png')}} 500w, {{asset('asset/images/image/team/cto/TimArnold-p-800.png')}} 800w, {{asset('asset/images/image/team/cto/TimArnold.png')}} 811w"
                                 alt="Tim Arnold, JuggernautAI Co-Creator" class="ceo-img-abs">
                             <div class="ceo-name">
                                 <div class="subtitle-l margin-bottom-8">Tim Arnold</div>
@@ -205,9 +209,9 @@
                     </div>
                     <div class="swiper-slide ceo-item">
                         <div class="ceo-item"><img
-                                src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f01_ceo-img-2.webp"
+                                src="{{asset('asset/images/image/team/ca/ceo-img-2.webp')}}"
                                 loading="lazy" sizes="100vw"
-                                srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f01_ceo-img-2-p-500.webp 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f01_ceo-img-2-p-800.webp 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f01_ceo-img-2.webp 811w"
+                                srcset="{{asset('asset/images/image/team/ca/ceo-img-2-p-500.webp')}} 500w, {{asset('asset/images/image/team/ca/ceo-img-2-p-800.webp')}} 800w, {{asset('asset/images/image/team/ca/ceo-img-2.webp')}} 811w"
                                 alt="ceo photo" class="ceo-img-abs ceo-item">
                             <div class="ceo-name">
                                 <div class="subtitle-l margin-bottom-8">Marisa Inda</div>
@@ -230,14 +234,14 @@
     <section class="section">
         <div class="container">
             <div class="benefits-wrap is-join"><img
-                    src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0c_join-img.webp"
+                    src="{{asset('asset/images/image/join/join-img.webp')}}"
                     loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 41vw, 50vw"
-                    srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0c_join-img-p-500.webp 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0c_join-img-p-800.webp 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0c_join-img-p-1080.webp 1080w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0c_join-img.webp 1442w"
+                    srcset="{{asset('asset/images/image/join/join-img-p-500.webp')}} 500w, {{asset('asset/images/image/join/join-img-p-800.webp')}} 800w, {{asset('asset/images/image/join/join-img-p-1080.webp')}} 1080w, {{asset('asset/images/image/join/join-img.webp')}} 1442w"
                     alt="tournament" class="join-img is-descktop">
                 <div class="benefits-list is-about"><h1 class="heading-h3">Join Our Team!</h1><img
-                        src="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0c_join-img.webp"
-                        loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 84vw, 100vw"
-                        srcset="https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0c_join-img-p-500.webp 500w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0c_join-img-p-800.webp 800w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0c_join-img-p-1080.webp 1080w, https://cdn.prod.website-files.com/653a0fc479ec415433fc9e9a/653a0fc479ec415433fc9f0c_join-img.webp 1442w"
+                        src="{{asset('asset/images/image/join/join-img.webp')}}"
+                        loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 41vw, 50vw"
+                        srcset="{{asset('asset/images/image/join/join-img-p-500.webp')}} 500w, {{asset('asset/images/image/join/join-img-p-800.webp')}} 800w, {{asset('asset/images/image/join/join-img-p-1080.webp')}} 1080w, {{asset('asset/images/image/join/join-img.webp')}} 1442w"
                         alt="tournament" class="join-img is-mob">
                     <div class="benefit-item">
                         <div class="benefit-icon-wrap is-1"></div>
@@ -264,3 +268,41 @@
         </div>
     </section>
 @endsection
+
+@push('js')
+    <script>
+
+        // ATTACH
+        $(document).ready(() => {
+            const client = filestack.init('AEEnHaPZTDWTZX4SmZCKbz');
+            const attachBtn = $('#attach-btn');
+            const inputAttach = $('[type="file"]');
+
+            inputAttach.change((event) => {
+                const files = inputAttach[0].files;
+                const file = files[0];
+                client.upload(file)
+                    .then(function (response) {
+                        console.log(response);
+                    })
+                    .catch(function (error) {
+                        console.log('Oops! Something went wrong. Please try again.');
+                    });
+            });
+        });
+
+        // Swiper CEO cards on mobile screen
+        let swiperSecond = new Swiper('[data-swiper=cards]', {
+            speed: 800,
+            slidesPerView: 1,
+            spaceBetween: 16,
+            allowTouchMove: true,
+            loop: false,
+            navigation: {
+                nextEl: '[data-swiper=next-cards]',
+                prevEl: '[data-swiper=prev-cards]',
+            }
+        });
+
+    </script>
+@endpush

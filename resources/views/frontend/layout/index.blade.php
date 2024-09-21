@@ -22,8 +22,6 @@
     <link href="{{asset('asset/css/lib/remodal/remodal.min.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('asset/css/lib/remodal/remodal-default-theme.min.css')}}" rel="stylesheet" type="text/css">
     <style>
-        /* Hide webflow badge */
-
         /* Scroll */
         ::-webkit-scrollbar { width: 10px; }
         ::-webkit-scrollbar-thumb { background: #ccc;}
